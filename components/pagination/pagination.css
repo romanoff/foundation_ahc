@@ -1,0 +1,14 @@
+/**
+ * @provide 'foundation.Pagination'
+ * @default_param 'content'
+ */
+ul.pagination {
+    display: block;
+    height: 1.5em;
+    margin-left: -0.3125em;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    list-style-position: outside;
+    font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}

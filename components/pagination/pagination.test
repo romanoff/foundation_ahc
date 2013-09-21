@@ -1,0 +1,17 @@
+Input:
+{"content": "<div></div>"}
+Expected:
+<ul class="pagination">
+    <li class="arrow"><a href="">&laquo;</a></li>
+    <div></div>
+    <li class="arrow"><a href="">&raquo;</a></li>
+</ul>
+
+Input:
+{"content": "<div></div>", "leftUnavailable": true}
+Expected:
+<ul class="pagination">
+    <li class="arrow unavailable"><a href="">&laquo;</a></li>
+    <div></div>
+    <li class="arrow"><a href="">&raquo;</a></li>
+</ul>

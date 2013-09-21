@@ -1,0 +1,14 @@
+Input:
+{"url": "http://google.com", "name": "Google"}
+Expected:
+<li class=""><a href="http://google.com">Google</a></li>
+
+Input:
+{"url": "http://google.com", "name": "Google", "unavailable": true}
+Expected:
+<li class="unavailable"><a href="http://google.com">Google</a></li>
+
+Input:
+{"url": "http://google.com", "name": "Google", "current": true}
+Expected:
+<li class="current"><a href="http://google.com">Google</a></li>
