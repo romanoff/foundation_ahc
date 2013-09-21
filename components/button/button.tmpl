@@ -1,0 +1,22 @@
+<a class="button
+{{if .type}}
+  {{if .type | eq "info"}}
+  secondary
+  {{end}}
+  {{if .type | eq "success"}}
+  success
+  {{end}}
+{{end}}
+
+{{if .size}}
+  {{if .size | eq "large" }}
+  large
+  {{end}}
+  {{if .size | eq "small" }}
+  small
+  {{end}}
+  {{if .size | eq "xsmall" }}
+  tiny
+  {{end}}
+{{end}}
+">{{.name | html}}</a>
